@@ -11,7 +11,7 @@ h2, h3 {
   font-weight: lighter;
 }
 
-#main {
+article, section {
   margin: 2em;
 }
 
@@ -20,13 +20,42 @@ body, input[type="text"], button {
   font-family: Cambria, Georgia, serif;
 }
 
-.disclaimer {
-  font-size: small;
-}
-
 /* everywhere else */
 * {
   font-family: 'Asap', Helvetica, sans-serif;
+}
+
+/* misc */
+.date
+{
+  color: #555;
+  font-style: italic;
+}
+.link
+{
+  box-shadow: 0 3px 0 #008080;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+.link:hover
+{
+  color: #000;
+  text-decoration: none;
+  background-color: #eee4d5;
+}
+.link:active
+{
+  box-shadow: none;
+  top: 5px;
+}
+.link:visited
+{
+  color: #000;
+}
+
+.disclaimer {
+  font-size: small;
 }
 
 /*footer style*/
@@ -35,7 +64,7 @@ body, input[type="text"], button {
   color: #fff6e7;
   padding: 5px;
   text-align: center;
-  width: 110%;
+  width: 100%;
   position: fixed;
   bottom: 0;
 }
