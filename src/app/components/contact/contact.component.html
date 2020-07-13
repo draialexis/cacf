@@ -1,0 +1,16 @@
+<section>
+  <div class="container">
+    <form (ngSubmit)="processForm()">
+      <div class="field">
+        <input type="text" name="name" class="input" placeholder="* nom et prénom" [(ngModel)]="name">
+      </div>
+      <div class="field">
+        <input type="email" name="email" class="input" placeholder="* adresse e-mail" [(ngModel)]="email">
+      </div>
+      <div class="field">
+        <textarea class="textarea" name="message" placeholder="* votre message" [(ngModel)]="message"></textarea>
+      </div>
+        <button type="submit" class="button is-info is-large">Envoyer</button>
+    </form>
+  </div>
+</section>

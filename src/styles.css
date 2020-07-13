@@ -9,10 +9,12 @@ h2, h3 {
   color: #444;
   font-family: 'Lato', Helvetica, sans-serif;
   font-weight: lighter;
+  font-size: 175%;
+  padding-bottom: 1em;
 }
 
-article, section {
-  margin: 2em;
+section {
+  margin: 3em;
 }
 
 body, input[type="text"], button {
@@ -21,7 +23,7 @@ body, input[type="text"], button {
 }
 
 /* everywhere else */
-* {
+p, ul {
   font-family: 'Asap', Helvetica, sans-serif;
 }
 
@@ -84,4 +86,14 @@ body, input[type="text"], button {
 
 .btn-footer:hover {
   background-color: #008080;
+}
+
+/*header style*/
+header {
+  background-color: #ddd;
+  color: #000917;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+  top: 0;
 }
