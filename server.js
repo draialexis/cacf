@@ -22,12 +22,12 @@ const transporter = nodemailer.createTransport({
 app.use(bodyParser.json());
 
 // REMOVE ONCE INTO PROD
-app.use(function (req, res, next) {
-
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
+// app.use(function (req, res, next) {
+//
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//   next();
+// });
 // REMOVE ONCE INTO PROD
 
 app.post('/send', function (req, res) {
