@@ -10,8 +10,8 @@ import {Component, OnInit} from '@angular/core';
 export class ContactComponent implements OnInit {
   name: string;
   email: string;
+  level: string;
   message: string;
-  href: string;
 
   constructor() {
   } // private service: ConnectionService
@@ -20,7 +20,8 @@ export class ContactComponent implements OnInit {
   }
 
   processForm() {
-    window.location.assign('mailto:prospection@cours-anglais-clermont.fr?subject=prospection%20' + this.name + '&body=' + this.message);
+    window.location.assign('mailto:prospection@cours-anglais-clermont.fr?subject=prospection%20pour%20niveau20%' +
+      this.level + 'par20%' + this.name + '&body=' + this.message);
     // this.service.sendMessage(this.message);
   }
 }

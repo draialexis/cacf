@@ -10,11 +10,15 @@ h2, h3 {
   font-family: 'Lato', Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 175%;
-  padding-bottom: 1em;
 }
 
 section {
-  margin: 3em;
+  margin: 0.5em 3em;
+}
+
+body {
+  height: 90vh;
+  margin-bottom: 10vh;
 }
 
 body, input[type="text"], button {
@@ -25,39 +29,39 @@ body, input[type="text"], button {
 /* everywhere else */
 p, ul {
   font-family: 'Asap', Helvetica, sans-serif;
+  padding: 1em 0;
 }
 
 /* misc */
-.date
-{
+.date {
   color: #555;
   font-style: italic;
 }
-.link
-{
+
+.link {
   box-shadow: 0 3px 0 #008080;
   position: relative;
   text-decoration: none;
   color: #000;
 }
-.link:hover
-{
+
+.link:hover {
   color: #000;
   text-decoration: none;
   background-color: #eee4d5;
 }
-.link:active
-{
+
+.link:active {
   box-shadow: none;
   top: 5px;
 }
-.link:visited
-{
+
+.link:visited {
   color: #000;
 }
 
-.disclaimer {
-  font-size: small;
+.small-print {
+  font-size: 0.7em;
 }
 
 /*footer style*/
@@ -69,10 +73,7 @@ p, ul {
   width: 100%;
   position: fixed;
   bottom: 0;
-}
-
-#copyright {
-  font-size: 0.7em;
+  height: 10vh;
 }
 
 .btn-footer {
@@ -96,4 +97,9 @@ header {
   text-align: center;
   width: 100%;
   top: 0;
+}
+
+#contact-blurb {
+  color: #000;
+  font-weight: bold;
 }
