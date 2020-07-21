@@ -108,3 +108,7 @@ em {
   font-size: 110%;
   font-style: normal;
 }
+
+li {
+  list-style: circle !important;
+}
