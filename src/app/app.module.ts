@@ -5,7 +5,7 @@ import {AppComponent} from './app.component';
 import {ContactComponent} from './components/contact/contact.component';
 
 import {FormsModule} from '@angular/forms';
-import {ConnectionService} from './logic/connection.service';
+import {ConnectionService} from './services/connection.service';
 
 @NgModule({
   declarations: [

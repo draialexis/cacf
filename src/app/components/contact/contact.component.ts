@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 
-// import { ConnectionService } from '../../logic/connection.service';
+// import { ConnectionService } from '../../services/connection.service';
 
 @Component({
   selector: 'app-contact',
@@ -13,15 +13,16 @@ export class ContactComponent implements OnInit {
   level: string;
   message: string;
 
-  constructor() {
-  } // private service: ConnectionService
+  constructor(/* private service: ConnectionService */) {
+  }
 
   ngOnInit() {
   }
 
   processForm() {
-    window.location.assign('mailto:prospection@cours-anglais-clermont.fr?subject=prospection%20pour%20niveau20%' +
-      this.level + 'par20%' + this.name + '&body=' + this.message);
     // this.service.sendMessage(this.message);
   }
+
+  // window.location.assign('mailto:prospection@cours-anglais-clermont.fr?subject=prospection%20pour%20niveau20%' +
+  //   this.level + 'par20%' + this.name + '&body=' + this.message);
 }

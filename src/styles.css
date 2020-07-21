@@ -101,5 +101,10 @@ header {
 
 #contact-blurb {
   color: #000;
+}
+
+em {
   font-weight: bold;
+  font-size: 110%;
+  font-style: normal;
 }
