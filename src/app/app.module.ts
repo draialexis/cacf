@@ -9,6 +9,8 @@ import {ConnectionService} from './services/connection.service';
 import {FooterComponent} from './components/page-structure/footer/footer.component';
 import {DescriptionComponent} from './components/description/description.component';
 import {HeaderComponent} from './components/page-structure/header/header.component';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {HeaderComponent} from './components/page-structure/header/header.compone
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [ConnectionService],
   bootstrap: [AppComponent]
