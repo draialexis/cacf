@@ -1,4 +1,20 @@
-/* Application-wide Styles */
+body {
+  height: 90vh;
+  margin-bottom: 10vh;
+}
+
+strong {
+  font-size: 110%;
+}
+
+li {
+  list-style: circle !important;
+}
+
+.small-print {
+  font-size: 0.8em;
+}
+
 h1 {
   color: #369;
   font-family: 'Lato', Helvetica, sans-serif;
@@ -16,99 +32,12 @@ section {
   margin: 0.5em 3em;
 }
 
-body {
-  height: 90vh;
-  margin-bottom: 10vh;
-}
-
 body, input[type="text"], button {
   color: #333;
   font-family: Cambria, Georgia, serif;
 }
 
-/* everywhere else */
 p, ul {
   font-family: 'Asap', Helvetica, sans-serif;
   padding: 1em 0;
-}
-
-/* misc */
-.date {
-  color: #555;
-  font-style: italic;
-}
-
-.link {
-  box-shadow: 0 3px 0 #008080;
-  position: relative;
-  text-decoration: none;
-  color: #000;
-}
-
-.link:hover {
-  color: #000;
-  text-decoration: none;
-  background-color: #eee4d5;
-}
-
-.link:active {
-  box-shadow: none;
-  top: 5px;
-}
-
-.link:visited {
-  color: #000;
-}
-
-.small-print {
-  font-size: 0.7em;
-}
-
-/*footer style*/
-#footer {
-  background-color: #222;
-  color: #fff6e7;
-  padding: 5px;
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  height: 10vh;
-}
-
-.btn-footer {
-  background-color: #222;
-  width: 56px;
-  height: 56px;
-  border-style: none;
-  border-radius: 50%;
-  margin: 0 10px;
-}
-
-.btn-footer:hover {
-  background-color: #008080;
-}
-
-/*header style*/
-header {
-  background-color: #ddd;
-  color: #000917;
-  padding: 2em;
-  text-align: center;
-  width: 100%;
-  top: 0;
-}
-
-#contact-blurb {
-  color: #000;
-}
-
-em {
-  font-weight: bold;
-  font-size: 110%;
-  font-style: normal;
-}
-
-li {
-  list-style: circle !important;
 }

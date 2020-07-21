@@ -1,20 +1,21 @@
 <section>
-  <p id="contact-blurb">Contact directement à <em>prospection@cours-anglais-clermont.fr</em> (formulaire en service prochainement) </p>
+  <p id="contact-blurb">Contact directement à <strong>prospection@cours-anglais-clermont.fr</strong> (formulaire en service
+    prochainement) </p>
   <div class="container">
     <form (ngSubmit)="processForm()">
       <div class="field">
-        <input type="text" name="name" class="input" placeholder="nom et prénom *" [(ngModel)]="name">
+        <input [(ngModel)]="name" class="input" name="name" placeholder="nom et prénom *" type="text">
       </div>
       <div class="field">
-        <input type="email" name="email" class="input" placeholder="adresse e-mail *" [(ngModel)]="email">
+        <input [(ngModel)]="email" class="input" name="email" placeholder="adresse e-mail *" type="email">
       </div>
       <div class="field">
-        <input type="text" name="level" class="input" placeholder="classe / niveau de l'élève" [(ngModel)]="level">
+        <input [(ngModel)]="level" class="input" name="level" placeholder="classe / niveau de l'élève" type="text">
       </div>
       <div class="field">
-        <textarea class="textarea" name="message" placeholder="votre message *" [(ngModel)]="message"></textarea>
+        <textarea [(ngModel)]="message" class="textarea" name="message" placeholder="votre message *"></textarea>
       </div>
-      <button type="submit" class="button is-info is-large" disabled="disabled">Envoyer</button>
+      <button class="button is-info is-large" disabled="disabled" type="submit">Envoyer</button>
     </form>
   </div>
 </section>
