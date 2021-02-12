@@ -11,6 +11,7 @@ import {DescriptionComponent} from './components/description/description.compone
 import {HeaderComponent} from './components/page-structure/header/header.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { VideoComponent } from './components/video/video.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     ContactComponent,
     FooterComponent,
     DescriptionComponent,
-    HeaderComponent
+    HeaderComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
