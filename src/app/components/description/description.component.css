@@ -3,25 +3,25 @@
   font-style: italic;
 }
 
-.link {
+a {
   box-shadow: 0 3px 0 #008080;
   position: relative;
   text-decoration: none;
   color: #000;
 }
 
-.link:hover {
+a:hover {
   color: #000;
   text-decoration: none;
   background-color: #eee4d5;
 }
 
-.link:active {
+a:active {
   box-shadow: none;
   top: 5px;
 }
 
-.link:visited {
+a:visited {
   color: #000;
 }
 
