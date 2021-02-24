@@ -45,3 +45,40 @@ iframe {
   display: block;
   margin: 20px auto;
 }
+
+.date {
+  color: #555;
+  font-style: italic;
+}
+
+a {
+  box-shadow: 0 3px 0 #008080;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #eee4d5;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+a:visited {
+  color: #000;
+}
+
+#offer-logo-div {
+  float: right;
+}
+
+#sap-logo {
+  max-width: 25%;
+  height: auto;
+}
+
