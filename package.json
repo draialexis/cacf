@@ -37,9 +37,11 @@
     "jquery": "^3.6.0",
     "nodemailer": "^6.4.16",
     "popper.js": "^1.16.1",
+    "postcss": "^8.3.0",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.0",
     "url-parse": "^1.5.1",
+    "ws": "^7.4.6",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
