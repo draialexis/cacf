@@ -14,6 +14,7 @@ import { VideoComponent } from './components/video/video.component';
 import { OfferComponent } from './components/description/offer/offer.component';
 import { TutorComponent } from './components/description/tutor/tutor.component';
 import { MiscInfoComponent } from './components/description/misc-info/misc-info.component';
+import { CgvComponent } from './components/description/cgv/cgv.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MiscInfoComponent } from './components/description/misc-info/misc-info.
     VideoComponent,
     OfferComponent,
     TutorComponent,
-    MiscInfoComponent
+    MiscInfoComponent,
+    CgvComponent
   ],
   imports: [
     BrowserModule,
