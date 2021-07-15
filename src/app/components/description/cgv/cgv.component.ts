@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cgv.component.css']
 })
 export class CgvComponent implements OnInit {
+  isHide = true;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toggleDisplay() {
+    this.isHide = !this.isHide;
+  }
 }
